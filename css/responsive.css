@@ -1,0 +1,94 @@
+.content, .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content, .road, .Movie, .Python, .Company, .Pence, .snippet, .main-image {
+  order: 12;
+}
+
+
+
+/* ------ responsiveness for small phones ------ */
+@media screen and (max-width: 480px) {
+  .header__image {
+  height: 48px;
+  margin-right: 0.5em;
+}
+.title {
+  margin-left: 0;
+  font-size: 2em;
+  vertical-align: bottom;
+ }
+ .main-image {
+   width:100%;
+ }
+.road {
+   order: 1;
+     width: 100%;
+ }
+ .Pence {
+   order: 5;
+   width: 100%;
+ }
+ .Company {
+   order: 3;
+   width: 100%;
+ }
+ .snippet {
+   order: 4;
+   width: 100%;
+ }
+ .Python {
+   order: 2;
+   width: 100%;
+ }
+ .Movie {
+   order: 6;
+   width: 100%;
+ }
+}
+
+/* ------ responsiveness for medium device like ipad ------ */
+@media screen and (min-width: 481px) and (max-width: 849px){
+  main, .header__inner, .container, .container-fluid, .main-image, .content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-image {
+    width:100%;
+  }
+.road {
+    order: 1;
+      width: 50%;
+  }
+  .Pence {
+    order: 5;
+    width: 50%;
+  }
+  .Company {
+    order: 3;
+    width: 50%;
+  }
+  .snippet {
+    order: 4;
+    width: 50%;
+  }
+  .Python {
+    order: 2;
+    width: 50%;
+  }
+  .Movie {
+    order: 6;
+    width: 50%;
+  }
+}
+
+/* ------ responsiveness for laptops phones ------ */
+@media screen and (min-width: 850px) {
+  main, .header__inner, .container, .container-fluid, .main-image {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

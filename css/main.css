@@ -1,0 +1,160 @@
+/* ------ body styling------ */
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'lato', sans-serif;
+  font-weight:400;
+  color: #303E1A;
+	max-width: 900px;
+  margin: auto;
+  width: 100%;
+}
+
+
+
+/* ------ header styling------ */
+.header__inner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__image {
+  height: 120px;
+  width: auto;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.header__title {
+  float: right;
+  font-weight: 500;
+  font-size: 1em;
+  margin: 0.5em 0.25em;
+  display: inline-block;
+  color: #212121;
+  text-align: right;
+}
+ /* ------ end header styling------ */
+
+.title {
+	text-align: right;
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-size: 3em;
+	font-weight: 100;
+	color: #2d3c49;
+}
+.description {
+	text-align: right;
+	font-size: 1.375em;
+	color: #2d3c49;
+}
+
+
+main {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container, .col-md-12, .col-md-4, .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.figure, .article, .container-fluid {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+section {
+  display: flex;
+}
+
+
+
+.main-image {
+	width: 100%;
+	max-height: 420px;
+  width: 1000px;
+}
+
+/* ------ breaker styling------ */
+hr {
+  height: 4px;
+  color: #7d97ad;
+  background-color: #7d97ad;
+  margin-top: 0;
+  width: 1000px;
+}           /* ------ end breaker styling------ */
+
+
+article {
+  text-align: center;
+}
+
+
+h1 {
+  text-transform:uppercase;
+
+}
+figcaption {
+  margin-bottom: 5px;
+}
+
+.heading {
+  font-weight: 300;
+  font-size: 40px;
+  color: #7d97ad;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+h4 {
+  text-transform:uppercase;
+  font-weight: 300;
+}
+
+
+a {
+  color: #747474;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ------ footer styling------ */
+footer {
+  border-top: 1px solid #E0E0E0;
+  padding: 1em;
+  width: 100%;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  padding: 1.5em;
+}
