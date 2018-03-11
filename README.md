@@ -1,7 +1,7 @@
 # Portfolio Project
 My Udacity Portfolio:
    project for the Full Stack Web Developer Nanodegree. This portfolio is using bootstrap framework and It is a responsive web design so      the layout will be adjusted according to the size of the web browser or screen.
- website  page can be found and download [here](https://github.com/ademola25/Portfolio) in my github.io.
+ 
  ### Usage
  Open the website URL and click on the image of each of the project and the project detials will pop up.
 ### Installation
