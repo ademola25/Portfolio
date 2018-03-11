@@ -1,116 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-     <meta charset="utf-8">
-     <title>Tijani Ademola portfolio</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
- <!-- custom bootstrap css -->
-     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
- <!-- custom css -->
- <link rel="stylesheet" href="css/main.css">
- <link rel="stylesheet" href="css/responsive.css">
- <!-- jquery for bootstrap -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
- <!-- bootstrap javascript -->
-     <script src="bootstrap/js/bootstrap.min.js"></script>
-   <!-- google fonts -->
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300%7CLora">
-   <!-- font awesome -->
-        <script src="https://use.fontawesome.com/62db1f9eca.js"></script>
-   </head>
-  <body>
-    <!-- beginning of header-->
-    <header class="header">
-      <div class="header__inner">
-        <img class="header__image" src="images/dem.jpg" width="101" height="100" alt="passport photograph of me">
-        <div class="header__title">
-          <h1 class="title">TIJANI ADEMOLA</h1>
-           <h4 class="description">Software Developer</h4>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tijani Ademola Portfolio</title>
+<!-- Favicon -->
+    <link rel="shortcut icon" href="images/dem.jpg" sizes="16x16 32x32 48x48" type="image/png">
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+    <!--Bootstrap and customised style-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+      <header>
+        <div class="row">
+            <!--profile image-->
+            <div class="col-md-6 col-sm-4 col-xs-4">
+                <img class="header__image" src="images/menow.jpg" alt="demola logo">
+            </div>
+            <!--title-->
+            <div class="header-title col-md-6 col-sm-8 col-xs-8 text-right text-uppercase">
+                <h1>Tijani Ademola</h1>
+                <h4>Software developer</h4>
+                <button type="button" class="btn btn-default pull-right button-style" data-toggle="modal"
+                        data-target="#AboutMe">About Me
+                </button>
+            </div>
         </div>
+        <div class="row">
+            <div class="col-md-12 divider">
+                <hr>
+            </div>
+        </div>
+      </header>
+    <!-- customised Cover image-->
+      <div class="row">
+         <div class="col-md-12">
+           <img class="img-responsive" src="images/restaurant.jpg" alt="Resturant ongoing project">
+         </div>
       </div>
-    </header>  <!-- end of header-->
 
-        <hr> <!--  breaker -->
+  <!-- container for the articles with customised project images -->
+        <section class="row">
+            <header class="col-md-12 section">
+                <h2 class="projects-title">Featured Work</h2>
+            </header> <!-- features -->
+            <!-- row articles for each project -->
+              <article class="col-md-4 top1"> <!-- salon project -->
+                <img class="img-responsive img-rounded project-image img-thumbnail mouse-hover" data-toggle="modal"
+                  data-target="#Headline-barbing-lounge"
+                  src="images/salon3.jpeg" alt="Salon development project">
+                <h3 class="title">Headline Barbing Salon</h3>
+              </article>                    <!-- end of salon project -->
+              <article class="col-md-4 top1"> <!-- sculpture project -->
+                <img class="img-responsive img-rounded  project-image img-thumbnail mouse-hover" data-toggle="modal"
+                    data-target="#The-sculpture"
+                    src="images/tom3.jpg" alt="sculpture collection project">
+                <h3 class="title">The sculpture</h3>
+              </article>                        <!-- end of sculpture project -->
+              <article class="col-md-4 top1"> <!-- real estate project -->
+                <img class="img-responsive img-rounded project-image img-thumbnail mouse-hover" data-toggle="modal"
+                  data-target="#Real-Estate" src="images/amen.jpeg" alt="Amen real estate development project-">
+                <h3 class="title">Real Estate</h3>
+              </article>                          <!-- end of real estate project -->
+              <article class="col-md-4 top1"> <!-- mama africa project -->
+                <img class="img-responsive img-rounded project-image img-thumbnail mouse-hover" data-toggle="modal"
+                     data-target="#Mama-Africa" src="images/tommy.jpeg" alt="Proud African woman">
+                <h3 class="title">Mama Africa</h3>
+              </article>                            <!-- end of mama africa project -->
+              <article class="col-md-4 top1"> <!-- Book-shelves project -->
+                <img class="img-responsive img-rounded project-image img-thumbnail mouse-hover" data-toggle="modal"
+                     data-target="#Book-shelves" src="images/bookshelve2.jpg"
+                     alt="Book identification amoung sheles project">
+                <h3 class="title">Book shelves</h3>
+              </article> <!-- end of Bookshelves project -->
+              <article class="col-md-4 top1">  <!-- vivid art project -->
+                <img class="img-responsive img-rounded project-image img-thumbnail mouse-hover"
+                     data-toggle="modal" data-target="#Vivid-Art-Gallery" src="images/vivid4.jpg"
+                     alt="collections of Art work development project">
+                <h3 class="title">Vivid Art Gallery</h3>
+              </article>                    <!-- vivid art project -->
+      </section>
 
-  <!-- beginning of main content-->
-    <main>
-      <section class="content">        <!-- beginning of  section content -->
-        <div class="container-fluid">      <!-- beginning of container container-fluid -->
-              <div class="row">
-                <div class="col-lg-12">
-                  <img src="images/out-of-the-office-1240234.jpg" alt="The head" class="main-image">
-                </div>
-              </div>
-              <div class="col-lg-12">
-				         <h2 class="heading">Featured Work</h2>
-			         </div>
-          <!-- container for the articles -->
-          <section class="container">
-              <article class="col-lg-4 Movie"> <!-- Movie article -->
-                  <figure>
-                    <img src="images/on-the-road-7-1384791-1279x852.jpg" alt="The head" width="300" height="200">
-                  <figcaption> <h2 class="project-name">Movie</h2>
-                    <a href="#">http://myportfolio/project/</a>
-                  </figcaption>
-                </figure>
-              </article>    <!--  end of Movie article -->
-              <article class="col-lg-4 Python">     <!-- Python article -->
-                <figure>
-                    <img src="images/stocking-for-business-1240245.jpg" alt="business gur" width="300" height="200">
-                  <figcaption>
-                    <h2 class="project-name">Python</h2>
-                    <a href="#">http://myportfolio/clearpiece</a>
-                  </figcaption>
-                </figure>
-              </article>      <!-- end of Python article -->
-              <article class="col-lg-4 Company">   <!-- Company article -->
-                  <figure>
-                    <img src="images/html.jpg" alt="picture of the moment" width="300" height="200">
-                  <figcaption>
-                    <h2 class="project-name">Company</h2>
-                    <a href="#">http://myportfolio/project/</a>
-                  </figcaption>
-                </figure>
-              </article>  <!-- end Company article -->
+   <!--footer-->
+      <footer class="col-md-12">
+        <p>Copyright © 2018 <a href="https://github.com/Ademola25" target="_blank">Tijani ademola</a> </p>
+     </footer>
+    </div>
 
-               <!-- Pence article -->
-              <article class="col-lg-4 Pence">
-                  <figure>
-                    <img src="images/get-start-1578004.jpg" alt="getting starting picture" width="300" height="200">
-                  <figcaption>
-                    <h2 class="project-name">Pence</h2>
-                    <a href="#">http://myportfolio/project/</a>
-                  </figcaption>
-                </figure>
-              </article>        <!-- end of Pence article -->
-              <article class="col-lg-4 snippet">  <!-- snippet article -->
-                <figure class="project-box">
-                    <img src="images/summer-nature-3-1370238.jpg" alt="summer is beautiful" width="300" height="200">
-                  <figcaption>
-                    <h2 class="project-name">Java</h2>
-                    <a href="#">http://myportfolio/clearpiece</a>
-                  </figcaption>
-                </figure>
-              </article>  <!-- end of snippet article -->
-              <article class="col-lg-4 road">    <!-- Road article -->
-                <figure class="project-box">
-                    <img src="images/e-sign-1243111.jpg" alt="good sign" width="300" height="200">
-                  <figcaption>
-                      <h2 class="project-name">Road</h2>
-                      <a href="#">http://myportfolio/project/</a>
-                  </figcaption>
-                </figure>
-              </article>    <!-- end of Road article -->
-          </section>  <!-- end container for the articles -->
+<!--Modal pop out information when clicking the project pictures-->
+<div class="modal fade" id="AboutMe" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content About me-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Tijani Ademola</h3>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive fej img-rounded img-thumbnail" src="images/menow.jpg"
+                     alt="profile picture">
+                <article>
+                    <h4 class="big text-center">
+                      Tijani Ademola is a Project Manager, an Entreprenuer as well as a Software Developer.
+                      He specialises in Business Management and software development, He is currently
+                      under-going Full Stack Web Developmer Nanodegree Program in
+                      <a href="https://www.udacity.com//">Udacity</a> He completed his B-tech in
+                      mechanical Engineering at (<a href="http://lautech.edu.ng/">Lautech</a>) Ladoke Akintola
+                      University of Technology,Ogbomoso Oyo State Nigeria  and also completed his
+                      Masters in Business Adminstration in(<a href="http://www.eul.edu.tr/en/">EUL</a>)
+                      European University of Lefke. North Cyprus, turkey.
+                    </h4>
+                </article>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+  </div>
 
-        </div>    <!-- end of container container-fluid -->
-      </section>     <!-- end the section content -->
-    </main>  <!-- end of main content-->
-      <!-- footer -->
-      <footer class="footer">
-		        <div class="col-lg-12">
-              <p class="text-muted text-center">check out my complete portfolio at<a href="https://github.com/ademola25">Tijaniademola.com</a></p>
-		        </div>
-	   </footer> <!-- close footer -->
-  </body>
+  <!-- barbing salon-->
+  <div class="modal fade" id="Headline-barbing-lounge" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Headline Barbing Lounge</h3>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive fej img-rounded img-thumbnail" src="images/headline.jpeg"
+                   alt="profile picture">
+                <article class="salon">
+                    <p class="big text-justify">
+                        Headline barbing lounge is a salon combine with lounge to have a royal haircut
+                        while other customer are waiting at the lounge section
+                        These days most men, boys, girls and some women visit a barbing salon to
+                        regularly cut and groom their hair at least twice a month.
+                        Those who have fast growing hair do it much more regularly.
+                        A good hair cut makes a person look nice and presentable.
+                        This has created a high demand for barbing salon business.
+                        It can be started small with little  capital and gradually
+                        expand as the market develops.
+                    </p>
+                </article>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+
+ <!-- The sculpture-->
+  <div class="modal fade" id="The-sculpture" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">The Sculpture</h3>
+            </div>
+            <div class="modal-body">
+                <article class="sculpture">
+                  <h4> <strong>Work in progress so no available picture yet</strong></h4>
+                    <p class="text-justify">
+                      The sculpture signifies strength and energy...
+                      it is titled boerboel. A breed of dog created in South Africa...
+                      the piece is 8ft tall and valued for millions of naira in a gallery in Nigeria...
+                      it is a sight to behold
+                    </p>
+                </article>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Real-estate-->
+ <div class="modal fade" id="Real-Estate" role="dialog">
+   <div class="modal-dialog">
+       <div class="modal-content">
+           <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h3 class="modal-title">Amen Estate</h3>
+           </div>
+           <div class="modal-body">
+             <img class="img-responsive fej img-rounded img-thumbnail" src="images/amen3.jpeg"
+                  alt="profile picture">
+               <article class="real-estate">
+                   <p class="text-justify">
+                       Real estate in my country is one of the  fastest growing industry presently.
+                       It has afforded lots of individuals the means of earning a daily living as
+                       a side income apart from their 9-5 job, aside earnings.
+                       The structures put in place by the industry has afforded
+                       both low and high income earners the opportunity to own properties in high
+                       ended regions.
+                   </p>
+               </article>
+               <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+           </div>
+       </div>
+   </div>
+ </div>
+
+<!-- Mama Africa-->
+<div class="modal fade" id="Mama-Africa" role="dialog">
+    <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Mama Africa</h3>
+            </div>
+            <div class="modal-body">
+                <article class="mama">
+                  <h4> <strong>Work in progress so no available picture yet</strong></h4>
+                    <p class="big text-justify">
+                        Mama Africa... selfless, loving and fierce. Protective of her
+                        own at her very expense,   even in the midst of chaos her only hope lies
+                        in what her seed would become.  Till her dying days she would give her everything
+                        for her first love... the fruit of her womb. It is always Mother's Day in Africa.
+                    </p>
+                </article>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Book-shelves-->
+<div class="modal fade" id="Book-shelves" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Book Shelves</h3>
+            </div>
+            <div class="modal-body">
+                <article class="book">
+                  <h4> <strong>Work in progress so no available picture yet</strong></h4>
+                    <p class="text-justify">
+                        My bookshelves not only hold stories, they’re a chronicle of my life.
+                        I should be grateful because a British interior designer called Lauren Coleman
+                        recently stacked her books backwards with the spines to the wall in order to keep the
+                        colour palette of her living room “neutral”.
+                    </p>
+                </article>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+    <!-- Vivid art gallery-->
+  <div class="modal fade" id="Vivid-Art-Gallery" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Vivid Art Gallery</h3>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive fej img-rounded img-thumbnail" src="images/collections.jpg"
+                   alt="profile picture">
+                <article class="vivid">
+                    <p class="text-justify">
+                      Art collection, an accumulation of works of art by a private individual or a public institution.
+                      Art collecting has a long history, and most of the world’s art museums grew out of great
+                      private collections formed by royalty,the aristocracy, or the wealthy.
+                      Vivid has given workshops on traditional Nigerian textiles to audiences in the US and Europe.
+                    </p>
+                </article>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+</body>
 </html>

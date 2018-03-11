@@ -1,0 +1,70 @@
+/*----body-----*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #5e5e5e;
+  font-weight: 300;
+}
+/*----header-----*/
+
+.header__title {
+    font-size: 60px;
+}
+.header__image {
+	border-radius: 80%;
+	max-width: 100px;
+	max-height: 100px;
+  margin: 15px;
+}
+
+h4, .big {
+		font-family: 'Open Sans', sans-serif;
+		color: #5e5e5e;
+		font-weight: 300;
+		line-height: 1.5;
+}
+
+p {
+ font-family: 'Open Sans', sans-serif;
+ color: #5e5e5e;
+ font-weight: 300;
+ line-height: 1.5;
+ font-size: 120%;
+}
+
+.projects-title {
+    margin-top: 50px;
+		color: #7d97ad;
+	}
+
+.title {
+    color: silver;
+    margin-bottom: 50px;
+    text-align: center;
+}
+hr {
+  height: 4px;
+  display: block;
+	color: #7d97ad;
+	background-color: #7d97ad;
+}
+
+.fej {
+	width: 100%;
+	max-height: 500px;
+}
+
+.mouse-hover {
+	cursor: pointer;
+}
+
+.pull-right {
+	float: right;
+}
+/*----footer-----*/
+footer {
+	margin-top: 50px;
+	font-size: 1.2em;
+	font-weight: 400;
+	text-align: center;
+}
